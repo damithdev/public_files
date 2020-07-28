@@ -1,2 +1,5 @@
 article_data.csv filter=lfs diff=lfs merge=lfs -text
 news_urls.csv filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.jso filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
