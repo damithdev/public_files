@@ -1,5 +1,21 @@
-article_data.csv filter=lfs diff=lfs merge=lfs -text
-news_urls.csv filter=lfs diff=lfs merge=lfs -text
+# Track all .zip files with LFS
+*.zip filter=lfs diff=lfs merge=lfs -text
+# Track all .tar.gz files with LFS
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+# Track all .csv files with LFS
+*.csv filter=lfs diff=lfs merge=lfs -text
+# Track all .mp4 video files with LFS
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+# Track all .psd Photoshop files with LFS
 *.psd filter=lfs diff=lfs merge=lfs -text
-*.jso filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
+# Track all .exe binary executables with LFS
+*.exe filter=lfs diff=lfs merge=lfs -text
+# Track all .dll binary library files with LFS
+*.dll filter=lfs diff=lfs merge=lfs -text
+# Track all binary image files with LFS
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.file_extension filter=lfs diff=lfs merge=lfs -text
